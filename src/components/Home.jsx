@@ -1,4 +1,3 @@
-import React from "react";
 import HeroImage from "../assets/bilal.png";
 import { MdOutlineKeyboardArrowRight } from "react-icons/md";
 import { Link } from "react-scroll";

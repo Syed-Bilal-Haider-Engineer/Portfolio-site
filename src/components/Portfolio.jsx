@@ -1,4 +1,3 @@
-import React from "react";
 import foodifi from "../assets/portfolio/foodifi.jpg";
 import mata from "../assets/portfolio/mata.png";
 import nfts from "../assets/portfolio/nft.png";
