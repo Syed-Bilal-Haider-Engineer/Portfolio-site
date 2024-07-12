@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
-import { skills } from '../../data/constants'
+import { skills } from '../../data/constant';
 
 const Container = styled.div`
 display: flex;
