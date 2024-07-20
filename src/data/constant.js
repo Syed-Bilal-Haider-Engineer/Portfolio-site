@@ -420,3 +420,86 @@ export const Bio = {
     { year: 2024, text: "Shared my projects with the world" },
   ];
   
+  const BioInGerman = [
+    {
+    name: "Syed Bilal Haider",
+    roles: [
+      "Full Stack Entwickler",
+      "Frontend Entwickler",
+      "Programmierer",
+    ],
+    description:
+      "Als Softwareingenieur, der sich auf Front-End-Technologien spezialisiert hat, verfügt Syed über mehr als 2 Jahre Erfahrung als Softwareentwickler für führende Unternehmen in den USA und den VAE. Ich bin selbstmotiviert und kann eigenständig arbeiten. Syed ist auch für seinen freundlichen und kollaborativen Ansatz bekannt, der ein vielfältiges, integratives Arbeitsumfeld fördert, das Kreativität und Innovation anregt.",
+    github: "https://github.com/Syed-Bilal-Haider-Engineer",
+    resume: "",
+    linkedin: "https://www.linkedin.com/in/bilalsoftwaredeveloper/",
+    medium: "https://medium.com/@BilalEngineer",
+  }
+  ];
+
+  export const experiencesInGerman = [
+    {
+      id: 0,
+      img: "https://media.licdn.com/dms/image/D4E0BAQFyqZ__3Rtn6w/company-logo_200_200/0/1719582919009/nanthealth_logo?e=1729728000&v=beta&t=QansPVSGEAt4Faufj5Yn9BWjV5IPcZKNwtzsrHBKFwQ",
+      role: "Softwareentwickler | Entwickler für Benutzeroberflächen",
+      company: "NanthHealth",
+      date: "Januar 2024 bis heute",
+      desc: "Ich habe über das Outsourcing durch Wiseman Innovations aus der Ferne mit Nanth Health zusammengearbeitet. In meiner aktuellen Rolle konzentriere ich mich auf die Verbesserung und Unterstützung aktiver Projekte auf der Network Monitoring System (OpenNMS)-Plattform. Dabei geht es um die Einführung neuer Funktionalitäten, die Lösung von Problemen und die Erfüllung kundenspezifischer Anpassungswünsche. Zu den Hauptbereichen meiner Arbeit gehören die Entwicklung der Node Status API, die Verfeinerung des Benutzeroberflächendesigns, die Integration von über 30 APIs, die enge Zusammenarbeit mit Stakeholdern und das Erreichen einer Verbesserung der Systemreaktionszeit um 20 %.",
+      skills: [
+        "Javascript",
+        "Reagieren",
+        "Vue",
+        "Nächste",
+        "Redux",
+        "Federdesign",
+        "Typoskript",
+        "Knoten Js",
+        "Nächste Js",
+        "Docker",
+        "AWS-SES"
+      ],
+      doc: "",
+    },
+    {
+      id: 0,
+      img: "https://media.licdn.com/dms/image/D4D0BAQEkMbqUcgtgzw/company-logo_200_200/0/1692098484577/cloudpacer_logo?e=1729728000&v=beta&t=h7oamH_4jL_ksywiExuxJKp5x7Xl-L3cdyemd92gMEA",
+      role: "Software Engineer | Mern stack",
+      company: "Cloudpacer",
+      date: "März 2023 – Januar 2024",
+      desc: "Während meiner Tätigkeit als Junior Software Engineer arbeitete ich an mehreren MERN-Stack-Projekten, die Redux-Architektur, sowohl funktionale als auch klassenbasierte Komponenten sowie Backend-Entwicklung mit Node.js, Express und SQL-Datenbanken umfassten. Ich konzentrierte mich darauf, meine Fähigkeiten zu verbessern und zum Projekterfolg beizutragen. Ich zeigte eine starke Leidenschaft für kontinuierliches Lernen und ein Engagement für persönliches und berufliches Wachstum in der Full-Stack-Entwicklung.",
+      skills: [
+        "Javascript",
+        "ReactJS",
+        "Vue3",
+        "Vue2",
+        "Redux",
+        "NodeJs",
+        "Material-Benutzeroberfläche",
+        "HTML",
+        "CSS",
+        "Äußern",
+        "ORM",
+        "SQL",
+        "Nicht-SQL"
+      ],
+      doc: "",
+    },
+    {
+      id: 1,
+      img: "https://images.crunchbase.com/image/upload/c_pad,h_170,w_170,f_auto,b_white,q_auto:eco,dpr_1/c7mrr7vrkquwbpxispwb",
+      role: "Associate Software Engineer | React-Entwickler",
+      company: "Bloctech-Lösungen",
+      date: "März 2022 – März 2023",
+      desc: "Ich habe meine Karriere bei Bloctech Solutions als Associate Software Engineer begonnen. Ich habe an verschiedenen Projekten mit React und Web 3.0 gearbeitet, dabei meine technischen Fähigkeiten erweitert und wertvolle Erfahrungen im industriellen Umfeld gesammelt. Darüber hinaus habe ich starke Führungsqualitäten entwickelt.",
+      skills: [
+        "ReactJS",
+        "Redux",
+        "Material-Benutzeroberfläche",
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "SQL",
+      ],
+    },
+    
+  ];
