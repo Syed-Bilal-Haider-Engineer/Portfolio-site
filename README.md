@@ -1,4 +1,5 @@
-portfolio site:
+Portfolio site:
+
 I have developed a portfolio site that showcases my skills, projects, educational background, and personal information. 
 The site is built using React for a dynamic user experience and Framer Motion for smooth and engaging animations. 
 Additionally,it supports multiple languages through the integration of i18next, allowing visitors to view content in their preferred language.
