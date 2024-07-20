@@ -2,7 +2,7 @@ import React from 'react'
 import { useState } from 'react'
 import { Container, Wrapper, Title, Desc, CardContainer, ToggleButtonGroup, ToggleButton, Divider } from './ProjectStyle'
 import ProjectCard from '../Cards/ProjectCard'
-import { projects } from '../../data/constant'
+// import { projects } from '../../data/constant'
 
 const Projects = ({openModal,setOpenModal}) => {
   const [toggle, setToggle] = useState('all');
@@ -38,9 +38,9 @@ const Projects = ({openModal,setOpenModal}) => {
             <ToggleButton value="machine learning" onClick={() => setToggle('machine learning')}>MACHINE LEARNING</ToggleButton>
           }
         </ToggleButtonGroup>
-        <CardContainer>
+        {/* <CardContainer>
           {toggle === 'all' && projects
-            .map((project) => (
+            ?.map((project) => (
               <ProjectCard project={project} openModal={openModal} setOpenModal={setOpenModal}/>
             ))}
           {projects
@@ -48,7 +48,7 @@ const Projects = ({openModal,setOpenModal}) => {
             .map((project) => (
               <ProjectCard project={project} openModal={openModal} setOpenModal={setOpenModal}/>
             ))}
-        </CardContainer>
+        </CardContainer> */}
       </Wrapper>
     </Container>
   )
