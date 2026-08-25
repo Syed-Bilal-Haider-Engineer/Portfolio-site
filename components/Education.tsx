@@ -19,7 +19,7 @@ export default function Education() {
             }`}
           >
             <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-[10px] border border-border bg-surface text-base dark:border-white/10 dark:bg-white/5">
-              {item.icon}
+             <img src={item.logo} alt="" />
             </div>
             <div className="min-w-0 flex-1">
               <div className="flex flex-wrap items-baseline justify-between gap-2">

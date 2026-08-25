@@ -7,7 +7,7 @@ export default function Header() {
     <header className="sticky top-0 z-30 bg-paper/90 backdrop-blur-sm dark:bg-ink/90">
       <div className="mx-auto flex max-w-page items-center justify-between px-6 py-5">
         <Link href="#top" className="font-display text-[17px] font-semibold">
-          alex.
+          B.H.
         </Link>
         <nav className="flex items-center gap-5 text-sm text-muted dark:text-muted-2">
           {nav.map((item) => (

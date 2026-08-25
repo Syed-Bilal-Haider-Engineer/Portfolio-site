@@ -2,11 +2,14 @@ import Header from "@/components/Header";
 import Hero from "@/components/Hero";
 import Experience from "@/components/Experience";
 import Education from "@/components/Education";
+import Hackathon from "@/components/Hackathon";
 import Projects from "@/components/Projects";
 import Courses from "@/components/Courses";
 import Skills from "@/components/Skills";
 import Contact from "@/components/Contact";
 import Footer from "@/components/Footer";
+import OpenSource from "@/components/Opensource";
+
 
 export default function Home() {
   return (
@@ -14,8 +17,10 @@ export default function Home() {
       <Header />
       <Hero />
       <Experience />
-      <Education />
+      <OpenSource/>
+      <Hackathon/>
       <Projects />
+      <Education />
       <Courses />
       <Skills />
       <Contact />

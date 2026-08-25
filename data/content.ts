@@ -6,171 +6,592 @@
 export const profile = {
   name: "Bilal Haider",
   role: "Software Engineer",
-  tagline: "full-stack · frontend Spieclist · AI Software Engineer",
+  tagline: "full-stack · frontend specialist · AI software engineer",
+
   paragraphs: [
-    "I build and write about product engineering, design systems, and developer tools for people who like shipping.",
-    "Right now my work sits around design systems, developer tooling, and internal platform work. I like turning messy UI problems into components, docs, and patterns other engineers can reuse.",
-    "I currently lead the design-systems team at Northwind Labs, and spend spare time on small open-source tools and side projects.",
-    "This site is my home base: projects I ship, notes from building, and the occasional write-up when something's worth sharing.",
+    "I’m a Software Engineer with nearly 3 years of experience building web products across frontend and backend engineering.",
+
+    "I enjoy turning complex product requirements into clear, reliable interfaces and scalable backend services. My experience spans React, Next.js, TypeScript, Node.js, PostgreSQL, MongoDB, REST APIs, GraphQL, Docker, CI/CD, and AI-powered applications.",
+
+    "Currently, I’m pursuing an M.Sc. in Web Engineering at Technische Universität Chemnitz, where I’m exploring modern web architecture, software services, advanced data management, and AI-assisted development.",
   ],
+
   email: "syedbilal.haider049@gmail.com",
-  location: "Berlin, Germany",
+
+  location: "Chemnitz, Germany",
+
   socials: [
-    { label: "Email", href: "mailto:syedbilal.haider049@gmail.com" },
-    { label: "GitHub", href: "https://github.com/" },
-    { label: "Medium", href: "https://medium.com/@BilalEngineer" },
-    { label: "LinkedIn", href: "https://www.linkedin.com/in/bilalsoftwaredeveloper/" },
-    {label: "Leetcode", href:"https://leetcode.com/u/BilalEng/"},
-    {label: "Youtube", href:"https://www.youtube.com/@WebEngineering-r7n"}
+    {
+      label: "Email",
+      href: "mailto:syedbilal.haider049@gmail.com",
+    },
+    {
+      label: "GitHub",
+      href: "https://github.com/Syed-Bilal-Haider-Engineer",
+    },
+    {
+      label: "Medium",
+      href: "https://medium.com/@BilalEngineer",
+    },
+    {
+      label: "LinkedIn",
+      href: "https://www.linkedin.com/in/bilalsoftwaredeveloper/",
+    },
+    {
+      label: "Leetcode",
+      href: "https://leetcode.com/u/BilalEng/",
+    },
+    {
+      label: "YouTube",
+      href: "https://www.youtube.com/@WebEngineering-r7n",
+    },
   ],
 };
 
+// ────────────────────────────────────────────────────────────
+// Navigation
+// ────────────────────────────────────────────────────────────
+
 export const nav = [
-  { label: "projects", href: "#work" },
-  { label: "courses", href: "#courses" },
-  { label: "blog", href: "#writing" },
-  { label: "experience", href: "#experience" },
-  { label: "github", href: "https://github.com/Syed-Bilal-Haider-Engineer" },
-  { label: "LinkedIn", href: "https://www.linkedin.com/in/bilalsoftwaredeveloper/" },
+  {
+    label: "Projects",
+    href: "#work",
+  },
+  {
+    label: "Courses",
+    href: "#courses",
+  },
+  {
+    label: "Blog",
+    href: "#writing",
+  },
+  {
+    label: "Experience",
+    href: "#experience",
+  },
+  {
+    label: "Hackathon",
+    href: "#hackathon",
+  },
+  {
+    label: "Github",
+    href: "https://github.com/Syed-Bilal-Haider-Engineer",
+  },
+  {
+    label: "LinkedIn",
+    href: "https://www.linkedin.com/in/bilalsoftwaredeveloper/",
+  },
 ];
 
+// ────────────────────────────────────────────────────────────
+// Hero Actions
+// ────────────────────────────────────────────────────────────
+
 export const heroActions = [
-  { label: "Read writing", href: "#writing", style: "solid" as const },
-  { label: "Projects", href: "#work", style: "outline" as const },
-  { label: "Email", href: "mailto:hello@alexrivera.dev", style: "outline" as const },
+  {
+    label: "Read writing",
+    href: "#writing",
+    style: "solid" as const,
+  },
+  {
+    label: "Projects",
+    href: "#work",
+    style: "outline" as const,
+  },
+  {
+    label: "Email",
+    href: "mailto:syedbilal.haider049@gmail.com",
+    style: "outline" as const,
+  },
 ];
+
+// ────────────────────────────────────────────────────────────
+// Experience
+// ────────────────────────────────────────────────────────────
 
 export const experience = [
   {
-    icon: "🧩",
-    role: "Senior Product Engineer",
-    badge: "Lead",
-    org: "Northwind Labs",
-    location: "Remote",
-    period: "2024 — Present",
+    logo: "https://www.opennms.com/wp-content/uploads/2021/05/OpenNMS-Core.png",
+
+    role: "Software Engineer",
+
+    badge: null,
+
+    org: "Wiseman Innovation",
+
+    location: "United States · Remote",
+
+    period: "01/2024 — 09/2024",
+
     description:
-      "Lead engineer on the design-systems team. Rebuilt the shared component library from the ground up and cut new-feature build time by roughly a third across four product teams.",
+      "Worked on OpenNMS, a network monitoring platform, building scalable frontend functionality and improving data-heavy monitoring dashboards.",
+
     bullets: [
-      "Owns the design-system roadmap and component API decisions",
-      "Rebuilt the token pipeline shared across web and native",
-      "Mentors two engineers rotating through the platform team",
+      "Reduced GraphQL API latency by 40% through reusable query patterns, intelligent caching, and optimized request orchestration across OpenNMS monitoring dashboards.",
+
+      "Built reusable React and Material UI components with interactive charts, transforming complex network telemetry into analytics that contributed to a 15% increase in user retention.",
+
+      "Reviewed 20+ pull requests, standardized TypeScript best practices, documented reusable UI architecture, and helped minimize frontend regression defects.",
+
+      "Delivered scalable frontend functionality as part of a cross-functional Agile team of 25+ engineers.",
     ],
-    link: { label: "northwindlabs.dev", href: "#" },
+
+    link: {
+      label: "OpenNMS",
+      href: "https://www.opennms.com/",
+    },
   },
+
   {
-    icon: "📊",
-    role: "Frontend Engineer",
+    logo: "https://media.licdn.com/dms/image/v2/D4D0BAQGzD6xGTB5n0A/company-logo_200_200/company-logo_200_200/0/1724075900897/cloudpacer_logo?e=1788998400&v=beta&t=tAfQeDCFPOkq3lwZ5qiAyDPXmYjP9YSakCct4FGMzOw",
+
+    role: "Software Engineer",
+
     badge: null,
-    org: "Palette Studio",
-    location: "Berlin, DE",
-    period: "2022 — 2024",
+
+    org: "CloudPacer",
+
+    location: "Lahore, Pakistan",
+
+    period: "01/2023 — 12/2023",
+
     description:
-      "Shipped customer-facing dashboards for a B2B analytics product used by 200+ teams, and led the migration from a class-component codebase to hooks.",
-    bullets: [],
-    link: null,
+      "Built end-to-end MERN features for customer-facing applications, working across React interfaces, Node.js services, MongoDB data models, APIs, dashboards, and payment workflows.",
+
+    bullets: [
+      "Delivered scalable React interfaces, Node.js services, and MongoDB data models for customer-facing applications.",
+
+      "Built interactive dashboards and reusable visualization components that simplified complex business metrics and supported data-driven decision-making.",
+
+      "Designed and integrated RESTful APIs with standardized request validation, error handling, and data serialization.",
+
+      "Automated recurring backend workflows with cron jobs, reducing manual operational processes.",
+
+      "Implemented secure Stripe payment integration for checkout, payment confirmation, and transaction processing.",
+
+      "Improved MongoDB performance through schema design, indexing, and query optimization.",
+    ],
+
+    link: {
+      label: "CloudPacer",
+      href: "https://www.cloudpacer.com/",
+    },
   },
+
   {
-    icon: "🛠️",
-    role: "Freelance Developer",
+    logo: "https://www.topdevelopers.co/upload/thumb_new/202107132140441190515802.png",
+
+    role: "Junior Software Engineer",
+
     badge: null,
-    org: "Self-employed",
-    location: "Remote",
-    period: "2020 — 2022",
+
+    org: "Bloctech Solutions",
+
+    location: "Faisalabad, Pakistan",
+
+    period: "01/2022 — 12/2022",
+
     description:
-      "Built marketing sites and small web apps for startups and independent studios, from first client call through launch and handoff.",
-    bullets: [],
-    link: null,
+      "Built responsive React interfaces from Figma designs and developed Web3 functionality including NFT minting, staking, and wallet integration.",
+
+    bullets: [
+      "Converted Figma designs into responsive, pixel-perfect React components for desktop and mobile devices.",
+
+      "Developed Web3 features including NFT minting, staking, and wallet integration using modern blockchain libraries.",
+
+      "Worked with React, Material UI, Tailwind CSS, Web3.js, and blockchain technologies.",
+    ],
+
+    link: {
+      label: "Bloctech Solutions",
+      href: "https://www.linkedin.com/company/bloctech-solution",
+    },
   },
 ];
+
+// ────────────────────────────────────────────────────────────
+// Projects
+// ────────────────────────────────────────────────────────────
 
 export const projects = [
   {
-    category: "SAAS",
-    title: "Fieldnote",
+    category: "UNIVERSITY PROJECT",
+
+    title: "PlanSpiel",
+
     description:
-      "A minimal note-taking app for researchers, with offline-first sync and citation-aware search. Used daily by a few dozen research teams.",
-    stats: ["2,300 monthly users", "12k npm downloads"],
-    tags: ["Next.js", "Postgres", "Tailwind"],
-    link: { label: "Website", href: "#" },
+      "A Web Architecture Model (WAM) diagram editor where users can create, edit, generate, and save architecture diagrams through an interactive visual workspace.",
+
+    stats: [
+      "AI-powered diagram generation",
+      "React Flow editor",
+    ],
+
+    tags: [
+      "Next.js",
+      "TypeScript",
+      "Tailwind CSS",
+      "Node.js",
+      "Express",
+      "MongoDB",
+      "React Flow",
+      "Gemini AI",
+    ],
+
+    link: {
+      label: "Project",
+      href: "#",
+    },
   },
+
   {
-    category: "OPEN SOURCE",
-    title: "Loom Kit",
+    category: "GEOSPATIAL",
+
+    title: "DataBenken",
+
     description:
-      "An open-source component library used by three small design teams to ship consistent UI faster, with accessibility baked into every primitive.",
-    stats: ["640 stars", "28 contributors"],
-    tags: ["React", "TypeScript", "Storybook"],
-    link: { label: "GitHub", href: "#" },
-  },
-  {
-    category: "SELF-HOSTED",
-    title: "Nightly",
-    description:
-      "A self-hosted status page and uptime monitor built for indie developers who don't want a monthly subscription.",
-    stats: ["Used by 40+ teams"],
-    tags: ["Node.js", "Docker", "SQLite"],
-    link: { label: "Download", href: "#" },
+      "A geospatial web platform for exploring and analyzing location-based datasets through an interactive mapping interface.",
+
+    stats: [
+      "GeoJSON",
+      "PostGIS",
+      "JWT Authentication",
+    ],
+
+    tags: [
+      "Next.js",
+      "React",
+      "PostGIS",
+      "Node.js",
+      "JWT",
+    ],
+
+    link: {
+      label: "Project",
+      href: "#",
+    },
   },
 ];
+
+// ────────────────────────────────────────────────────────────
+// Education
+// ────────────────────────────────────────────────────────────
 
 export const education = [
   {
-    icon: "🎓",
-    title: "B.Sc. Computer Science",
-    org: "Technical University of Munich",
-    location: "Munich, DE",
-    period: "2016 — 2020",
+    logo: "https://autex.org/sites/default/files/portfolio-images/Members_Technische_Universitat_Chemnitz_900_675d.png",
+
+    title: "M.Sc. Web Engineering",
+
+    org: "Technische Universität Chemnitz",
+
+    location: "Chemnitz, Germany",
+
+    period: "2024 — Present",
+
     description:
-      "Focused on distributed systems and human-computer interaction. Thesis on low-latency state sync for collaborative editors.",
+      "Relevant coursework includes Current Trends of Web Engineering, Software Service Engineering, and Advanced Data Management.",
+
+    link: {
+      label: "TU Chemnitz",
+      href: "https://www.tu-chemnitz.de/",
+    },
   },
+
   {
-    icon: "📜",
-    title: "AWS Certified Solutions Architect",
-    org: "Amazon Web Services",
-    location: "",
-    period: "2022",
-    description: "",
+    logo: "https://gcuf.edu.pk/wp-content/uploads/2024/12/logo-3.png",
+
+    title: "B.Sc. Computer Science",
+
+    org: "Government College University Faisalabad",
+
+    location: "Faisalabad, Pakistan",
+
+    period: "Graduated 2022",
+
+    description:
+      "Relevant coursework included Web Engineering, Object-Oriented Programming, Data Structures & Algorithms, and Database Management.",
+
+    link: {
+      label: "GCUF",
+      href: "https://gcuf.edu.pk/",
+    },
   },
 ];
+
+// ────────────────────────────────────────────────────────────
+// Courses
+// ────────────────────────────────────────────────────────────
 
 export const courses = [
   {
-    title: "Modern Design Systems From Scratch",
-    gradient: "linear-gradient(135deg, #4338CA, #7C3AED 55%, #DB2777)",
-    badges: ["FREE COURSE", "Beginner → Advanced"],
+    title: "Web Engineering",
+
+    gradient:
+      "linear-gradient(135deg, #4338CA, #7C3AED 55%, #DB2777)",
+
+    badges: [
+      "UNIVERSITY COURSE",
+      "Web Engineering",
+    ],
+
     description:
-      "A 10-lesson, 60-topic course on how design systems actually work — tokens and primitives through component APIs, theming, documentation, and shipping a library real teams adopt.",
+      "Notes, explanations, and practical material around modern web architecture, Web Services, REST, SOAP, performance, accessibility, WebAssembly, and emerging web technologies.",
+
     stats: [
-      { value: "8", label: "Modules" },
-      { value: "10", label: "Lessons" },
-      { value: "60", label: "Topics" },
-      { value: "~4 h", label: "Read time" },
+      {
+        value: "MS",
+        label: "Program",
+      },
+      {
+        value: "Web",
+        label: "Engineering",
+      },
+      {
+        value: "TU",
+        label: "Chemnitz",
+      },
     ],
   },
+
   {
-    title: "Shipping Fast with Next.js",
-    gradient: "linear-gradient(135deg, #0EA5E9, #22D3EE 55%, #4ADE80)",
-    badges: ["FREE COURSE", "Intermediate"],
+    title: "Software Service Engineering",
+
+    gradient:
+      "linear-gradient(135deg, #0EA5E9, #22D3EE 55%, #4ADE80)",
+
+    badges: [
+      "UNIVERSITY COURSE",
+      "Software Services",
+    ],
+
     description:
-      "A practical course on the App Router, server components, and the deployment decisions that actually matter when you're trying to ship, not just demo.",
+      "Practical and theoretical notes covering Web Architecture, WWW fundamentals, SOA, Web Services, REST, SOAP, WSDL, middleware, message passing, and service-oriented systems.",
+
     stats: [
-      { value: "6", label: "Modules" },
-      { value: "9", label: "Lessons" },
-      { value: "42", label: "Topics" },
-      { value: "~3 h", label: "Read time" },
+      {
+        value: "MS",
+        label: "Program",
+      },
+      {
+        value: "Web",
+        label: "Services",
+      },
+      {
+        value: "TU",
+        label: "Chemnitz",
+      },
     ],
   },
 ];
 
+// ────────────────────────────────────────────────────────────
+// Skills
+// ────────────────────────────────────────────────────────────
+
 export const skills = {
-  Languages: ["TypeScript", "JavaScript", "Python", "SQL"],
-  Frontend: ["React", "Next.js", "Tailwind CSS", "Vite"],
-  "Backend & data": ["Node.js", "PostgreSQL", "REST APIs", "Redis"],
-  Tooling: ["Docker", "Git", "Figma", "Vercel"],
+  Languages: [
+    "TypeScript",
+    "JavaScript",
+    "Python",
+    "SQL",
+  ],
+
+  Frontend: [
+    "HTML5",
+    "CSS3",
+    "React.js",
+    "Next.js",
+    "Material UI",
+    "Tailwind CSS",
+  ],
+
+  "Backend & Data": [
+    "Node.js",
+    "Express.js",
+    "PostgreSQL",
+    "MongoDB",
+    "REST APIs",
+    "GraphQL",
+  ],
+
+  "State & API": [
+    "Redux Toolkit",
+    "TanStack Query",
+    "GraphQL API Integration",
+    "FormData",
+  ],
+
+  "AI Development": [
+    "Prompt Engineering",
+    "LLM API Integration",
+    "Gemini AI",
+    "Cursor",
+    "GitHub Copilot",
+  ],
+
+  "Testing & Delivery": [
+    "GitHub Actions",
+    "CI/CD",
+    "Docker",
+    "Vercel",
+  ],
+
+  "UI Engineering": [
+    "Responsive UI",
+    "Figma",
+    "Accessibility",
+    "Performance Optimization",
+    "Component Architecture",
+  ],
 };
 
+// ────────────────────────────────────────────────────────────
+// Hackathon
+// ────────────────────────────────────────────────────────────
+
+export const hackathon = [
+  {
+    logo: "https://www.tum.de/favicon.ico",
+
+    title: "2nd Place — TUM × LB.systems GmbH Hackathon",
+
+    org: "Technische Universität München",
+
+    location: "Munich, Germany",
+
+    period: "06/2026",
+
+    description:
+      "Achieved 2nd place at the TUM × LB.systems GmbH Hackathon by contributing to an AI-powered dashboard as part of an international team.",
+
+    bullets: [
+      "Contributed to API integration, testing, and technical documentation.",
+
+      "Researched AI models and evaluated potential implementation approaches.",
+
+      "Identified potential issues and validated AI-generated outputs.",
+
+      "Collaborated with an international team to improve the reliability and overall quality of the solution.",
+    ],
+
+    organizationLink: {
+      label: "TUM",
+      href: "https://www.tum.de/",
+    },
+
+    link: {
+      label: "View Hackathon Post",
+      href: "https://www.linkedin.com/feed/update/urn:li:activity:7475310086333259776/",
+    },
+  },
+];
+
+// ────────────────────────────────────────────────────────────
+// Writing / Blog
+// ────────────────────────────────────────────────────────────
+
 export const writing = [
-  { title: "Notes on building a fast component library", date: "2026-06-29" },
-  { title: "Why I moved my side projects off subscriptions", date: "2025-11-14" },
-  { title: "A small case for boring technology", date: "2025-08-02" },
+  {
+    title:
+      "Keeping Your TypeScript Codebase Clean: ESLint, Prettier, and the Rules",
+
+    date: "2026",
+
+    link:
+      "https://medium.com/@BilalEngineer/keeping-your-typescript-codebase-clean-eslint-prettier-and-the-rules-50eb4eefe6ae",
+  },
+
+  {
+    title:
+      "Design Thinking & Human-Centered Design (HCD)",
+
+    date: "2026",
+
+    link:
+      "https://medium.com/@BilalEngineer/design-thinking-human-centered-design-hcd-d8927bed9062",
+  },
+
+  {
+    title:
+      "How to Integrate Localization with React-i18next in a React App",
+
+    date: "2024",
+
+    link:
+      "https://medium.com/@BilalEngineer/how-to-integrate-localization-with-react-i18next-in-a-react-app-5eba75456203",
+  },
+
+  {
+    title:
+      "Remove a Property from an Object in TypeScript",
+
+    date: "2024",
+
+    link:
+      "https://medium.com/@BilalEngineer/remove-a-property-from-an-object-in-typescript-bf7763fdb62e",
+  },
+
+  {
+    title:
+      "Mastering React: Top 5 Tips and Tricks for Success and Code Improvement",
+
+    date: "2023",
+
+    link:
+      "https://medium.com/@BilalEngineer/mastering-react-top-5-tips-and-tricks-for-success-and-code-improvement-d7ad9afdd066",
+  },
+];
+
+export const openSource = [
+  {
+    logo: "https://www.voiceybill.com/logo.png",
+
+    title: "VoiceBilly",
+
+    project: "Open source",
+
+    type: "Contribution",
+
+    period: "01.03.2026",
+
+    description:
+      "Add your actual open-source contribution here, including the project, what you changed, and why the contribution was useful.",
+
+    contributions: [
+      "Replace this with your actual contribution.",
+      "Add the PR, issue, feature, bug fix, or documentation work.",
+      "Add measurable impact if available.",
+    ],
+
+    link: {
+      label: "VoiceBilly",
+      href: "https://github.com/voiceyBill/voiceyBill-web/pulls?q=is%3Apr+is%3Aclosed+Bilal",
+    },
+  },
+
+  {
+    logo: "#",
+
+    title: "Open Source Project",
+
+    project: "GitHub",
+
+    type: "Project",
+
+    period: "2026",
+
+    description:
+      "Add another real open-source project or contribution you want to highlight.",
+
+    contributions: [
+      "Replace this placeholder with the actual project details.",
+      "Mention the technologies and your specific contribution.",
+    ],
+
+    link: {
+      label: "View on GitHub",
+      href: "https://github.com/Syed-Bilal-Haider-Engineer",
+    },
+  },
 ];
