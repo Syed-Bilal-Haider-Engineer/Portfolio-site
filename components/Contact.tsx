@@ -16,9 +16,9 @@ export default function Contact() {
         </p>
 
         <p className="mb-6 max-w-[54ch] text-sm leading-relaxed text-muted dark:text-muted-2">
-          Have a question, an interesting project, or want to connect?
-          Feel free to reach out. I’m always open to discussing software
-          engineering, web development, AI, and interesting ideas.
+         The best way to reach me is email or LinkedIn. I'm usually happy to talk about Software Development, open-source project, devtools, technical writing, and serious collaboration.
+
+Send context, links, constraints, or a rough problem. The more specific the shape, the better I can respond.
         </p>
 
         <div className="flex flex-wrap gap-3">

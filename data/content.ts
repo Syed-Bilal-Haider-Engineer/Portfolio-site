@@ -11,7 +11,7 @@ export const profile = {
   paragraphs: [
     "I’m a Software Engineer with nearly 3 years of experience building web products across frontend and backend engineering.",
 
-    "I enjoy turning complex product requirements into clear, reliable interfaces and scalable backend services. My experience spans React, Next.js, TypeScript, Node.js, PostgreSQL, MongoDB, REST APIs, GraphQL, Docker, CI/CD, and AI-powered applications.",
+    "Experience to turned complex product requirements into clear, reliable interfaces and scalable frontend and backend services. My experience spans React, Next.js, TypeScript, Node.js, PostgreSQL, MongoDB, REST APIs, GraphQL, Docker, CI/CD, and AI-powered applications.",
 
     "Currently, I’m pursuing an M.Sc. in Web Engineering at Technische Universität Chemnitz, where I’m exploring modern web architecture, software services, advanced data management, and AI-assisted development.",
   ],
@@ -454,7 +454,7 @@ export const hackathon = [
   {
     logo: "https://www.tum.de/favicon.ico",
 
-    title: "2nd Place — TUM × LB.systems GmbH Hackathon",
+    title: "Fenners-LBEnergy - 2nd Place — TUM × LB.systems GmbH Hackathon",
 
     org: "Technische Universität München",
 
@@ -463,16 +463,22 @@ export const hackathon = [
     period: "06/2026",
 
     description:
-      "Achieved 2nd place at the TUM × LB.systems GmbH Hackathon by contributing to an AI-powered dashboard as part of an international team.",
+      "Built an Model physics-informed thermal model that determines the exact moment heat pumps should start preheating. The system uses a grey-box RC model calibrated for each building from its own telemetry, making it applicable to different building types, from canvas tents to concrete lecture halls.",
 
     bullets: [
-      "Contributed to API integration, testing, and technical documentation.",
+      "Integrated APIs to connect the dashboard with the underlying thermal-model.",
 
-      "Researched AI models and evaluated potential implementation approaches.",
+      "Built dashboard functionality and interactive charts to visualize building data, thermal behavior, and model results.",
 
-      "Identified potential issues and validated AI-generated outputs.",
+      "Cleaned, prepared, and validated data to ensure reliable inputs for analysis and visualization.",
 
-      "Collaborated with an international team to improve the reliability and overall quality of the solution.",
+      "Researched AI models and evaluated potential approaches for integrating AI into the solution.",
+
+      "Investigated and validated AI-generated outputs and identified potential issues during development.",
+
+      "Contributed to technical documentation, testing, and API integration throughout the project.",
+
+      "Collaborated with an international team to develop and present the final solution, achieving 2nd place.",
     ],
 
     organizationLink: {
@@ -481,8 +487,8 @@ export const hackathon = [
     },
 
     link: {
-      label: "View Hackathon Post",
-      href: "https://www.linkedin.com/feed/update/urn:li:activity:7475310086333259776/",
+      label: "View Project",
+      href: "https://github.com/Syed-Bilal-Haider-Engineer/Fenners-LBEnergy",
     },
   },
 ];
@@ -547,7 +553,7 @@ export const openSource = [
   {
     logo: "https://www.voiceybill.com/logo.png",
 
-    title: "VoiceBilly",
+    title: "VoiceyBill",
 
     project: "Open source",
 
@@ -556,42 +562,62 @@ export const openSource = [
     period: "01.03.2026",
 
     description:
-      "Add your actual open-source contribution here, including the project, what you changed, and why the contribution was useful.",
+      "Contributed to VoiceyBill across both the web and server repositories, working on UI fixes, report workflows, API endpoints, database schema improvements, loading states, and developer tooling.",
 
     contributions: [
-      "Replace this with your actual contribution.",
-      "Add the PR, issue, feature, bug fix, or documentation work.",
-      "Add measurable impact if available.",
+      {
+        title:
+          "fix: Fixed category dropdown menu stays open when you click outside of it",
+        href: "https://github.com/voiceyBill/voiceyBill-web/pull/170",
+        number: "#170",
+      },
+
+      {
+        title:
+          "fix: The skeleton height not match the component size",
+        href: "https://github.com/voiceyBill/voiceyBill-web/pull/64",
+        number: "#64",
+      },
+
+      {
+        title:
+          "feat(resend-report): Add resend report email action with RTK mutation and row-level loading",
+        href: "https://github.com/voiceyBill/voiceyBill-web/pull/54",
+        number: "#54",
+      },
+
+      {
+        title:
+          "fix(web): Reduce table skeleton rows to improve loading UX",
+        href: "https://github.com/voiceyBill/voiceyBill-web/pull/49",
+        number: "#49",
+      },
+
+      {
+        title:
+          "fix(report-schema): Update report schema and add startDate/endDate fields",
+        href: "https://github.com/voiceyBill/voiceyBill-server/pull/83",
+        number: "#83",
+      },
+
+      {
+        title:
+          "chore: Configure ESLint with TypeScript, import order, Node.js, and Prettier integration",
+        href: "https://github.com/voiceyBill/voiceyBill-server/pull/120",
+        number: "#120",
+      },
+
+      {
+        title:
+          "feat(/report/resend): Implement resend report email endpoint with error handling and email data transformation",
+        href: "https://github.com/voiceyBill/voiceyBill-server/pull/49",
+        number: "#49",
+      },
     ],
 
     link: {
-      label: "VoiceBilly",
+      label: "View all PRs",
       href: "https://github.com/voiceyBill/voiceyBill-web/pulls?q=is%3Apr+is%3Aclosed+Bilal",
-    },
-  },
-
-  {
-    logo: "#",
-
-    title: "Open Source Project",
-
-    project: "GitHub",
-
-    type: "Project",
-
-    period: "2026",
-
-    description:
-      "Add another real open-source project or contribution you want to highlight.",
-
-    contributions: [
-      "Replace this placeholder with the actual project details.",
-      "Mention the technologies and your specific contribution.",
-    ],
-
-    link: {
-      label: "View on GitHub",
-      href: "https://github.com/Syed-Bilal-Haider-Engineer",
     },
   },
 ];

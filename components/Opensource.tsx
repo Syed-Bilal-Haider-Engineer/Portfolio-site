@@ -20,9 +20,13 @@ export default function OpenSource() {
                 : "pt-0"
             }`}
           >
-            {/* Icon */}
-            <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-[10px] border border-border bg-surface text-base dark:border-white/10 dark:bg-white/5">
-             <img src={item.logo}/>
+            {/* Company / Project Logo */}
+            <div className="flex h-10 w-10 shrink-0 items-center justify-center overflow-hidden rounded-[10px] border border-border bg-surface dark:border-white/10 dark:bg-white/5">
+              <img
+                src={item.logo}
+                alt={`${item.title} logo`}
+                className="h-7 w-7 object-contain"
+              />
             </div>
 
             {/* Content */}
@@ -48,20 +52,34 @@ export default function OpenSource() {
                 </p>
               )}
 
+              {/* Individual PRs */}
               {item.contributions?.length > 0 && (
                 <ul className="mt-3 space-y-1.5">
                   {item.contributions.map((contribution) => (
                     <li
-                      key={contribution}
-                      className="relative pl-4 text-[13px] leading-relaxed text-ink/75 dark:text-paper/75"
+                      key={contribution.href}
+                      className="relative pl-4 text-[13px] leading-relaxed"
                     >
                       <span className="absolute left-0 top-[9px] h-1 w-1 rounded-full bg-muted-2 dark:bg-muted" />
-                      {contribution}
+
+                      <a
+                        href={contribution.href}
+                        target="_blank"
+                        rel="noreferrer"
+                        className="text-ink/75 transition-colors hover:text-ink dark:text-paper/75 dark:hover:text-paper"
+                      >
+                        {contribution.title}
+                      </a>
+
+                      <span className="ml-2 font-mono text-[10px] text-muted-2 dark:text-muted">
+                        {contribution.number}
+                      </span>
                     </li>
                   ))}
                 </ul>
               )}
 
+              {/* All PRs */}
               {item.link && (
                 <a
                   href={item.link.href}
