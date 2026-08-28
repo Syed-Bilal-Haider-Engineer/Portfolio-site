@@ -4,7 +4,6 @@ import { useState } from "react";
 import Link from "next/link";
 import { navItems } from "@/data/shared";
 import { useI18n } from "@/lib/i18n";
-import ThemeToggle from "./ThemeToggle";
 import LanguageToggle from "./LanguageToggle";
 
 export default function Header() {
@@ -29,12 +28,10 @@ export default function Header() {
             </a>
           ))}
           <LanguageToggle />
-          <ThemeToggle />
         </nav>
 
         <div className="flex items-center gap-2 lg:hidden">
           <LanguageToggle />
-          <ThemeToggle />
           <button
             type="button"
             className="rounded-md border border-border px-2 py-1 font-mono text-[11px] dark:border-white/15"
