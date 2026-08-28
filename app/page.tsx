@@ -6,10 +6,10 @@ import Hackathon from "@/components/Hackathon";
 import Projects from "@/components/Projects";
 import Courses from "@/components/Courses";
 import Skills from "@/components/Skills";
+import Writing from "@/components/Writing";
 import Contact from "@/components/Contact";
 import Footer from "@/components/Footer";
 import OpenSource from "@/components/Opensource";
-
 
 export default function Home() {
   return (
@@ -17,12 +17,13 @@ export default function Home() {
       <Header />
       <Hero />
       <Experience />
-      <OpenSource/>
-      <Hackathon/>
+      <OpenSource />
+      <Hackathon />
       <Projects />
       <Education />
       <Courses />
       <Skills />
+      <Writing />
       <Contact />
       <Footer />
     </main>

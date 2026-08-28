@@ -1,7 +1,8 @@
 import type { Metadata } from "next";
 import { Inter, Space_Grotesk, JetBrains_Mono } from "next/font/google";
 import "./globals.css";
-import { profile } from "@/data/content";
+import Providers from "@/components/Providers";
+import { en } from "@/data/en";
 
 const sans = Inter({
   subsets: ["latin"],
@@ -24,8 +25,8 @@ const mono = JetBrains_Mono({
 });
 
 export const metadata: Metadata = {
-  title: `${profile.name} — ${profile.role}`,
-  description: profile.paragraphs[0],
+  title: en.meta.title,
+  description: en.meta.description,
 };
 
 export default function RootLayout({
@@ -34,9 +35,12 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en" className={`${sans.variable} ${display.variable} ${mono.variable}`}>
+    <html
+      lang="en"
+      className={`${sans.variable} ${display.variable} ${mono.variable}`}
+    >
       <body className="bg-paper font-sans text-ink antialiased dark:bg-ink dark:text-paper">
-        {children}
+        <Providers>{children}</Providers>
       </body>
     </html>
   );
