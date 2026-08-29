@@ -13,6 +13,7 @@ export const de = {
     opensource: "Open Source",
     hackathon: "Hackathon",
     menu: "Menü",
+    backHome: "Zur Startseite",
   },
   socials: {
     email: "E-Mail",

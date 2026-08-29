@@ -13,6 +13,7 @@ export const en = {
     opensource: "Open source",
     hackathon: "Hackathon",
     menu: "Menu",
+    backHome: "Back to home",
   },
   socials: {
     email: "Email",

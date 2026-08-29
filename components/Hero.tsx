@@ -68,7 +68,7 @@ export default function Hero() {
             {hero.actions.writing}
           </a>
           <a
-            href="/#work"
+            href="/projects"
             className="rounded-lg border border-border px-4 py-2.5 text-sm hover:bg-surface dark:border-white/15 dark:hover:bg-white/5"
           >
             {hero.actions.projects}

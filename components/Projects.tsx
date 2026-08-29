@@ -1,5 +1,6 @@
 "use client";
 
+import Link from "next/link";
 import { projectMeta } from "@/data/shared";
 import { useI18n } from "@/lib/i18n";
 
@@ -7,11 +8,14 @@ export default function Projects() {
   const { t } = useI18n();
 
   return (
-    <section
-      id="work"
-      className="scroll-mt-20 border-t border-border px-6 py-10 dark:border-white/10"
-    >
+    <section className="scroll-mt-20 px-6 py-10">
       <div className="mx-auto max-w-5xl">
+        <Link
+          href="/"
+          className="mb-6 inline-block font-mono text-[11px] text-muted hover:text-ink dark:text-muted-2 dark:hover:text-paper"
+        >
+          ← {t.nav.backHome}
+        </Link>
         <p className="mb-6 font-mono text-[11px] uppercase tracking-wide text-accent">
           {t.sections.projects}
         </p>

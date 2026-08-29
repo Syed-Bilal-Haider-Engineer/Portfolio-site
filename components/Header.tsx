@@ -19,6 +19,11 @@ export default function Header() {
   const [activeId, setActiveId] = useState<string | null>(null);
 
   useEffect(() => {
+    if (pathname.startsWith("/projects")) {
+      setActiveId("projects");
+      return;
+    }
+
     if (pathname.startsWith("/course")) {
       setActiveId("courses");
       return;

@@ -12,7 +12,7 @@ export const profileMeta = {
 } as const;
 
 export const navItems = [
-  { id: "projects", href: "/#work" },
+  { id: "projects", href: "/projects" },
   { id: "skills", href: "/#stack" },
   { id: "courses", href: "/course" },
   { id: "writing", href: "/#writing" },
