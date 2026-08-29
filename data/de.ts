@@ -6,6 +6,7 @@ export const de = {
   },
   nav: {
     projects: "Projekte",
+    skills: "Kenntnisse",
     courses: "Kurse",
     writing: "Artikel",
     experience: "Erfahrung",
@@ -25,13 +26,13 @@ export const de = {
     tagline: "Full-Stack · Frontend-Spezialist · KI-Softwareentwickler",
     name: "Bilal Haider",
     role: "Softwareentwickler",
-    location: "Chemnitz, Deutschland",
+    location: "Berlin, Deutschland",
     availability: "Offen für Vollzeitstellen in Deutschland & der EU",
     years: "≈ 3 Jahre Erfahrung",
     highlights: [
       "TypeScript · React · Next.js · Node.js",
-      "M.Sc. Web Engineering, TU Chemnitz",
-      "Open Source · REST APIs · GraphQL",
+      "LLM · RAG · AI assistant · Prompt engineering · AI development",
+      "API · REST APIs · GraphQL"
     ],
     paragraphs: [
       "Ich bin Softwareentwickler mit rund 3 Jahren Erfahrung in der Entwicklung von Webprodukten — Frontend und Backend.",
@@ -42,7 +43,7 @@ export const de = {
       writing: "Artikel lesen",
       projects: "Projekte",
       email: "E-Mail",
-      course: "HTTP- & REST-Kurs",
+      course: "Kurse",
     },
   },
   sections: {
@@ -117,6 +118,38 @@ export const de = {
         "Eine geospatiale Webplattform zum Erkunden und Analysieren standortbezogener Datensätze über eine interaktive Karte.",
       stats: ["GeoJSON", "PostGIS", "JWT-Authentifizierung"],
       link: "Projekt",
+    },
+    fenners: {
+      category: "Hackathon",
+      title: "Fenners-LBEnergy",
+      description:
+        "Physik-informiertes Thermomodell und Dashboard, das bestimmt, wann Wärmepumpen mit dem Vorheizen starten — kalibriert pro Gebäude aus Telemetrie.",
+      stats: ["2. Platz · TUM", "APIs & Charts", "Grey-Box-RC-Modell"],
+      link: "GitHub",
+    },
+    voiceybill: {
+      category: "Open Source",
+      title: "VoiceyBill",
+      description:
+        "Open-Source-Beiträge in Web- und Server-Repos: Report-Workflows, API-Endpunkte, Schema, Ladezustände und TypeScript-Tooling.",
+      stats: ["Gemergte PRs", "Web + Server", "RTK Query"],
+      link: "PRs",
+    },
+    monitoring: {
+      category: "Produkt",
+      title: "OpenNMS-Dashboards",
+      description:
+        "Datenintensives Netzwerk-Monitoring-UI: wiederverwendbare React- und Material-UI-Komponenten, GraphQL-Caching und Charts für Telemetrie.",
+      stats: ["GraphQL", "40 % weniger Latenz", "Wiederverwendbares UI"],
+      link: "OpenNMS",
+    },
+    web3: {
+      category: "Web3",
+      title: "NFT- & Wallet-Flows",
+      description:
+        "Responsive React-Oberflächen aus Figma mit NFT-Minting, Staking und Wallet-Integration über Web3.js.",
+      stats: ["Minting", "Staking", "Wallet-Connect"],
+      link: "Unternehmen",
     },
   },
   education: {
@@ -205,7 +238,9 @@ export const de = {
       "graphql-api": "GraphQL-API-Integration",
       formdata: "FormData",
       prompt: "Prompt Engineering",
-      llm: "LLM-API-Integration",
+      llm: "LLM",
+      rag: "RAG",
+      assistant: "KI-Assistent",
       gemini: "Gemini AI",
       cursor: "Cursor",
       copilot: "GitHub Copilot",
@@ -283,7 +318,7 @@ export const de = {
     title: "HTTP, REST-Architektur & REST APIs",
     subtitle:
       "Fülle jede Lektion aus. Überschriften und Navigation stehen; ersetze die Hinweisblöcke durch deine Erklärungen, Diagramme und Beispiele.",
-    back: "Zur Startseite",
+    back: "Zu den Kursen",
     toc: "Inhalt",
     placeholder:
       "Schreibe deine Notizen hier. Erkläre die Idee in eigenen Worten, ergänze ein kurzes Beispiel und verlinke weiterführende Quellen.",

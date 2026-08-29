@@ -13,7 +13,8 @@ export const profileMeta = {
 
 export const navItems = [
   { id: "projects", href: "/#work" },
-  { id: "courses", href: "/#courses" },
+  { id: "skills", href: "/#stack" },
+  { id: "courses", href: "/course" },
   { id: "writing", href: "/#writing" },
   { id: "experience", href: "/#experience" },
   { id: "opensource", href: "/#opensource" },
@@ -21,6 +22,18 @@ export const navItems = [
 ] as const;
 
 export const skillGroups = [
+  {
+    id: "ai",
+    items: [
+      { id: "llm", icon: "huggingface" },
+      { id: "rag", icon: "langchain" },
+      { id: "assistant", icon: "openai" },
+      { id: "prompt", icon: "openai" },
+      { id: "gemini", icon: "googlegemini" },
+      { id: "cursor", icon: "cursor" },
+      { id: "copilot", icon: "githubcopilot" },
+    ],
+  },
   {
     id: "languages",
     items: [
@@ -59,16 +72,6 @@ export const skillGroups = [
       { id: "tanstack", icon: "reactquery" },
       { id: "graphql-api", icon: "graphql" },
       { id: "formdata", icon: "javascript" },
-    ],
-  },
-  {
-    id: "ai",
-    items: [
-      { id: "prompt", icon: "openai" },
-      { id: "llm", icon: "openai" },
-      { id: "gemini", icon: "googlegemini" },
-      { id: "cursor", icon: "cursor" },
-      { id: "copilot", icon: "githubcopilot" },
     ],
   },
   {
@@ -154,7 +157,6 @@ export const projectMeta = [
       "TypeScript",
       "Tailwind CSS",
       "Node.js",
-      "Express",
       "MongoDB",
       "React Flow",
       "Gemini AI",
@@ -165,6 +167,26 @@ export const projectMeta = [
     id: "databenken",
     tags: ["Next.js", "React", "PostGIS", "Node.js", "JWT"],
     href: "#",
+  },
+  {
+    id: "fenners",
+    tags: ["React", "TypeScript", "APIs", "Charts", "Python"],
+    href: "https://github.com/Syed-Bilal-Haider-Engineer/Fenners-LBEnergy",
+  },
+  {
+    id: "voiceybill",
+    tags: ["React", "TypeScript", "RTK Query", "Node.js", "ESLint"],
+    href: "https://github.com/voiceyBill/voiceyBill-web/pulls?q=is%3Apr+is%3Aclosed+Bilal",
+  },
+  {
+    id: "monitoring",
+    tags: ["React", "Material UI", "GraphQL", "TypeScript", "Charts"],
+    href: "https://www.opennms.com/",
+  },
+  {
+    id: "web3",
+    tags: ["React", "Web3.js", "Tailwind CSS", "Material UI"],
+    href: "https://www.linkedin.com/company/bloctech-solution",
   },
 ] as const;
 
@@ -186,17 +208,17 @@ export const educationMeta = [
 export const courseCardsMeta = [
   {
     id: "http-rest",
-    href: "/courses/http-rest",
+    href: "/course/http-rest",
     gradient: "linear-gradient(135deg, #0F766E, #2563EB 55%, #7C3AED)",
   },
   {
     id: "web-engineering",
-    href: "#courses",
+    href: "/course/web-engineering",
     gradient: "linear-gradient(135deg, #4338CA, #7C3AED 55%, #DB2777)",
   },
   {
     id: "sse",
-    href: "#courses",
+    href: "/course/sse",
     gradient: "linear-gradient(135deg, #0EA5E9, #22D3EE 55%, #4ADE80)",
   },
 ] as const;

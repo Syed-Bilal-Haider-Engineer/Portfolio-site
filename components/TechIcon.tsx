@@ -1,5 +1,7 @@
 "use client";
 
+import { useState } from "react";
+
 const ICON_COLORS: Record<string, string> = {
   typescript: "3178C6",
   javascript: "F7DF1E",
@@ -20,7 +22,10 @@ const ICON_COLORS: Record<string, string> = {
   redux: "764ABC",
   reactquery: "FF4154",
   openai: "412991",
+  huggingface: "FFD21E",
+  langchain: "1C3C3C",
   googlegemini: "8E75B2",
+  google: "4285F4",
   cursor: "000000",
   githubcopilot: "000000",
   githubactions: "2088FF",
@@ -38,8 +43,22 @@ type TechIconProps = {
 };
 
 export default function TechIcon({ slug, label, size = 16 }: TechIconProps) {
+  const [failed, setFailed] = useState(false);
   const color = ICON_COLORS[slug] ?? "78766E";
   const src = `https://cdn.simpleicons.org/${slug}/${color}`;
+
+  if (failed) {
+    return (
+      <span
+        aria-hidden
+        title={label}
+        className="inline-flex shrink-0 items-center justify-center rounded-[3px] bg-ink/10 font-mono text-[8px] font-semibold leading-none text-ink dark:bg-paper/15 dark:text-paper"
+        style={{ width: size, height: size }}
+      >
+        {label.slice(0, 2).toUpperCase()}
+      </span>
+    );
+  }
 
   return (
     <img
@@ -50,9 +69,7 @@ export default function TechIcon({ slug, label, size = 16 }: TechIconProps) {
       className="shrink-0 object-contain dark:brightness-110"
       title={label}
       loading="lazy"
-      onError={(e) => {
-        e.currentTarget.style.display = "none";
-      }}
+      onError={() => setFailed(true)}
     />
   );
 }

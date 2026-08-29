@@ -13,7 +13,7 @@ export default function Writing() {
       className="scroll-mt-20 border-t border-border px-6 py-10 dark:border-white/10"
     >
       <div className="mx-auto max-w-page">
-        <p className="mb-6 font-mono text-[11px] uppercase tracking-wide text-muted-2 dark:text-muted">
+        <p className="mb-6 font-mono text-[11px] uppercase tracking-wide  text-accent">
           {t.sections.writing}
         </p>
         <ul>

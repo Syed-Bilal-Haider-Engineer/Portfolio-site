@@ -6,6 +6,7 @@ export const en = {
   },
   nav: {
     projects: "Projects",
+    skills: "Skills",
     courses: "Courses",
     writing: "Articles",
     experience: "Experience",
@@ -25,24 +26,24 @@ export const en = {
     tagline: "full-stack · frontend specialist · AI software engineer",
     name: "Bilal Haider",
     role: "Software Engineer",
-    location: "Chemnitz, Germany",
+    location: "Berlin, Germany",
     availability: "Open to full-time roles in Germany & the EU",
     years: "≈ 3 years experience",
     highlights: [
       "TypeScript · React · Next.js · Node.js",
-      "M.Sc. Web Engineering, TU Chemnitz",
-      "Open source · REST APIs · GraphQL",
+      "LLM · RAG · AI assistant · Prompt engineering · AI development",
+      "API · REST APIs · GraphQL",
     ],
     paragraphs: [
       "I’m a Software Engineer with nearly 3 years of experience building web products across frontend and backend engineering.",
-      "I turn complex product requirements into clear interfaces and scalable services. My stack includes React, Next.js, TypeScript, Node.js, PostgreSQL, MongoDB, REST APIs, GraphQL, Docker, CI/CD, and AI-powered applications.",
+      "I tackle frontend and backend challenges rooted in real user needs, helping people understand information, make confident decisions, and work without friction. I excel at taking complex, messy product logic and translating it into clear and reliable interfaces.",
       "I’m pursuing an M.Sc. in Web Engineering at Technische Universität Chemnitz, focusing on modern web architecture, software services, data management, and AI-assisted development.",
     ],
     actions: {
       writing: "Read articles",
       projects: "Projects",
       email: "Email",
-      course: "HTTP & REST course",
+      course: "courses",
     },
   },
   sections: {
@@ -117,6 +118,38 @@ export const en = {
         "A geospatial web platform for exploring and analyzing location-based datasets through an interactive mapping interface.",
       stats: ["GeoJSON", "PostGIS", "JWT authentication"],
       link: "Project",
+    },
+    fenners: {
+      category: "Hackathon",
+      title: "Fenners-LBEnergy",
+      description:
+        "Physics-informed thermal model and dashboard that decides when heat pumps should start preheating, calibrated per building from telemetry.",
+      stats: ["2nd place · TUM", "APIs & charts", "Grey-box RC model"],
+      link: "GitHub",
+    },
+    voiceybill: {
+      category: "Open source",
+      title: "VoiceyBill",
+      description:
+        "Open-source contributions across web and server: report workflows, API endpoints, schema updates, loading states, and TypeScript tooling.",
+      stats: ["Merged PRs", "Web + server", "RTK Query"],
+      link: "PRs",
+    },
+    monitoring: {
+      category: "Product",
+      title: "OpenNMS dashboards",
+      description:
+        "Data-heavy network monitoring UI: reusable React and Material UI components, GraphQL caching, and charts for complex telemetry.",
+      stats: ["GraphQL", "40% lower latency", "Reusable UI"],
+      link: "OpenNMS",
+    },
+    web3: {
+      category: "Web3",
+      title: "NFT & wallet flows",
+      description:
+        "Responsive React interfaces from Figma with NFT minting, staking, and wallet integration using Web3.js.",
+      stats: ["Minting", "Staking", "Wallet connect"],
+      link: "Company",
     },
   },
   education: {
@@ -205,7 +238,9 @@ export const en = {
       "graphql-api": "GraphQL API integration",
       formdata: "FormData",
       prompt: "Prompt engineering",
-      llm: "LLM API integration",
+      llm: "LLM",
+      rag: "RAG",
+      assistant: "AI assistant",
       gemini: "Gemini AI",
       cursor: "Cursor",
       copilot: "GitHub Copilot",
@@ -282,7 +317,7 @@ export const en = {
     title: "HTTP, REST architecture & REST APIs",
     subtitle:
       "Fill each lesson below. Headings and navigation are ready; replace the note blocks with your explanations, diagrams, and examples.",
-    back: "Back to home",
+    back: "Back to courses",
     toc: "Contents",
     placeholder:
       "Write your notes here. Explain the idea in your own words, add a small example, and link further reading.",

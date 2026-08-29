@@ -44,7 +44,7 @@ export default function HttpRestCoursePage() {
 
           <div>
             <Link
-              href="/#courses"
+              href="/course"
               className="font-mono text-[11px] text-muted hover:text-ink dark:text-muted-2 dark:hover:text-paper"
             >
               ← {page.back}

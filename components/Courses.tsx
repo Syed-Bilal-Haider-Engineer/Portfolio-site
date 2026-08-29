@@ -8,20 +8,20 @@ export default function Courses() {
   const { t } = useI18n();
 
   return (
-    <section
-      id="courses"
-      className="scroll-mt-20 border-t border-border px-6 py-10 dark:border-white/10"
-    >
+    <section className="scroll-mt-20 px-6 py-10">
       <div className="mx-auto max-w-page">
-        <p className="mb-6 font-mono text-[11px] uppercase tracking-wide text-muted-2 dark:text-muted">
+        <p className="mb-6 font-mono text-[11px] uppercase tracking-wide text-accent">
           {t.sections.courses}
         </p>
 
         {courseCardsMeta.map((course) => {
           const copy = t.courses[course.id];
-          const isPage = course.href.startsWith("/courses/");
-          const CardInner = (
-            <>
+          return (
+            <Link
+              key={course.id}
+              href={course.href}
+              className="mb-4 block overflow-hidden rounded-xl border border-border transition-opacity hover:opacity-95 dark:border-white/10"
+            >
               <div
                 className="flex h-[150px] items-center justify-center p-5 text-center font-display text-xl font-bold leading-tight text-white"
                 style={{ background: course.gradient }}
@@ -59,28 +59,7 @@ export default function Courses() {
                   ))}
                 </div>
               </div>
-            </>
-          );
-
-          if (isPage) {
-            return (
-              <Link
-                key={course.id}
-                href={course.href}
-                className="mb-4 block overflow-hidden rounded-xl border border-border transition-opacity hover:opacity-95 dark:border-white/10"
-              >
-                {CardInner}
-              </Link>
-            );
-          }
-
-          return (
-            <div
-              key={course.id}
-              className="mb-4 overflow-hidden rounded-xl border border-border dark:border-white/10"
-            >
-              {CardInner}
-            </div>
+            </Link>
           );
         })}
       </div>
