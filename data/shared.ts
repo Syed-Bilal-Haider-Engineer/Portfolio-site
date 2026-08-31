@@ -14,7 +14,7 @@ export const profileMeta = {
 export const navItems = [
   { id: "projects", href: "/projects" },
   { id: "skills", href: "/#stack" },
-  { id: "courses", href: "/course" },
+  // { id: "courses", href: "/course" },
   { id: "writing", href: "/#writing" },
   { id: "experience", href: "/#experience" },
   { id: "opensource", href: "/#opensource" },

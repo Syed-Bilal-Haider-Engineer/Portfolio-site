@@ -24,10 +24,10 @@ export default function Header() {
       return;
     }
 
-    if (pathname.startsWith("/course")) {
-      setActiveId("courses");
-      return;
-    }
+    // if (pathname.startsWith("/course")) {
+    //   setActiveId("courses");
+    //   return;
+    // }
 
     if (pathname !== "/") {
       setActiveId(null);
