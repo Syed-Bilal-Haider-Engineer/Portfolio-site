@@ -59,6 +59,21 @@ export const de = {
     contact: "kontakt",
   },
   experience: {
+    tum: {
+      role: "Wissenschaftliche Hilfskraft / Working Student — Software Engineer",
+      org: "Technische Universität München (TUM)",
+      location: "München, Deutschland · Geothermal Energy Planning Tool",
+      description:
+        "Working Student an einem Python/PySide6-Desktop-Forschungstool für die Planung geothermischer Energie. Fokus: Refactoring der Forschungs-Codebase in wartbare OOP/SOLID-Module und eine nutzbare Desktop-UI (responsives Layout, DPI-Skalierung).",
+      bullets: [
+        "Bestehende Python/PySide6-Forschungsanwendung mit OOP- und SOLID-Prinzipien refaktorisiert und modularisiert.",
+        "Architektur analysiert und Komponenten neu organisiert, um Verantwortlichkeiten klarer zu trennen und die Wartbarkeit zu erhöhen.",
+        "Geothermie-Planungslogik von der UI getrennt, damit Forschungsfunktionen (Planungsabläufe, Eingaben, Ergebnisse) erweiterbar bleiben.",
+        "Desktop-Oberfläche mit responsive Layout und DPI-Skalierung verbessert — lesbar auf gemischten Monitoren und High-DPI-Displays.",
+        "In Git-basierten Workflows (Branches, Reviews, iterative Lieferung) an der Weiterentwicklung der Forschungssoftware mitgearbeitet.",
+      ],
+      link: "TUM",
+    },
     wiseman: {
       role: "Software Engineer",
       org: "Wiseman Innovation",

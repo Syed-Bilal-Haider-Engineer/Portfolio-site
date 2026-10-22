@@ -130,6 +130,12 @@ export const writingItems = [
 
 export const experienceMeta = [
   {
+    id: "tum",
+    logo: "/tum-logo.ico",
+    period: "09/2026 — Present",
+    linkHref: "https://www.tum.de/",
+  },
+  {
     id: "wiseman",
     logo: "https://www.opennms.com/wp-content/uploads/2021/05/OpenNMS-Core.png",
     period: "01/2024 — 09/2024",
@@ -137,7 +143,7 @@ export const experienceMeta = [
   },
   {
     id: "cloudpacer",
-    logo: "https://media.licdn.com/dms/image/v2/D4D0BAQGzD6xGTB5n0A/company-logo_200_200/company-logo_200_200/0/1724075900897/cloudpacer_logo?e=1788998400&v=beta&t=tAfQeDCFPOkq3lwZ5qiAyDPXmYjP9YSakCct4FGMzOw",
+    logo: "/cloudpacer-logo.png",
     period: "01/2023 — 12/2023",
     linkHref: "https://www.cloudpacer.com/",
   },
@@ -226,7 +232,7 @@ export const courseCardsMeta = [
 export const hackathonMeta = [
   {
     id: "tum",
-    logo: "https://www.tum.de/favicon.ico",
+    logo: "/tum-logo.ico",
     period: "06/2026",
     orgHref: "https://www.tum.de/",
     projectHref: "https://github.com/Syed-Bilal-Haider-Engineer/Fenners-LBEnergy",

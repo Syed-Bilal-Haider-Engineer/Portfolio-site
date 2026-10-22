@@ -25,8 +25,13 @@ export default function Experience() {
                 i !== 0 ? "border-t border-border dark:border-white/10" : "pt-0"
               }`}
             >
-              <div className="flex h-10 w-10 shrink-0 items-center justify-center overflow-hidden rounded-[10px] border border-border bg-surface dark:border-white/10 dark:bg-white/5">
-                <img src={job.logo} alt="" className="h-7 w-7 object-contain" />
+              <div className="flex h-10 w-12 shrink-0 items-center justify-center overflow-hidden rounded-[10px] border border-border bg-white px-1 dark:border-white/10 dark:bg-white">
+                <img
+                  src={job.logo}
+                  alt={`${copy.org} logo`}
+                  className="h-8 w-full object-contain"
+                  referrerPolicy="no-referrer"
+                />
               </div>
               <div className="min-w-0 flex-1">
                 <div className="flex flex-wrap items-baseline justify-between gap-2">
